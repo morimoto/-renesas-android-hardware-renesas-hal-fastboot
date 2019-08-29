@@ -69,7 +69,6 @@ RetVal FastbootHal::eraseSSData() {
         if (waitpid(child, &pid_status, WNOHANG) != 0) {
             break;
         }
-        LOG(INFO) << ".";
         sleep(1);
     }
 
