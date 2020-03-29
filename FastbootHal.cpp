@@ -36,7 +36,7 @@ namespace renesas {
 
 // ===== Constants for C functions follow.
 static constexpr char HYPER_CA[] = "hyper_ca";
-static constexpr char HYPER_CA_PATH[] = "/sbin/hyper_ca";
+static constexpr char HYPER_CA_PATH[] = "/bin/hyper_ca";
 static constexpr char FDT_PARTTABLE_PATH[] = "/proc/device-tree/android/partitions";
 static constexpr auto PARTITION_NAME_LEN = 32; // Taken from u-boot
 
