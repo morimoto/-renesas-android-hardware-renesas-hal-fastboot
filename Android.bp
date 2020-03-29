@@ -24,7 +24,6 @@ cc_library_shared {
     shared_libs: [
         "libbase",
         "libhidlbase",
-        "libhidltransport",
         "libutils",
         "android.hardware.fastboot@1.0",
     ],
